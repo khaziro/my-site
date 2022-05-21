@@ -1,0 +1,14 @@
+:host {
+  min-height: 90px;
+  display: flex;
+  background-color: #ECEFF4;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+
+  &__logo {
+    height: 70px;
+  }
+}
