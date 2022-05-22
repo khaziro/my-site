@@ -4,7 +4,13 @@
     alt="logo"
     class="navbar__logo"
   >
-  <div class="navbar__about--me">About Me</div>
-  <div class="navbar__games--played">Games Played</div>
-  <div class="navbar__socials">Socials</div>
+  <div
+    class="navbar__text"
+  >
+    <div
+      class="navbar__text__content"
+      *ngFor="let text of navbarText"
+      [ngStyle]="{'margin-left': '15px'}"
+    >{{text.content}}</div>
+  </div>
 </div>
