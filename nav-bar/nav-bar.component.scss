@@ -1,0 +1,26 @@
+:host {
+  display: flex;
+  background-color: #ECEFF4;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px;
+
+  &__logo {
+    height: 50px;
+  }
+
+  &__text {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

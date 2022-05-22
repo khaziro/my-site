@@ -1,1 +1,16 @@
-<p>nav-bar works!</p>
+<div class="navbar">
+  <img
+    src="/assets/logo/logo.png"
+    alt="logo"
+    class="navbar__logo"
+  >
+  <div
+    class="navbar__text"
+  >
+    <div
+      class="navbar__text__content"
+      *ngFor="let text of navbarText"
+      [ngStyle]="{'margin-left': '15px'}"
+    >{{text.content}}</div>
+  </div>
+</div>

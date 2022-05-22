@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-nav-bar',
@@ -6,8 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav-bar.component.scss']
 })
 export class NavBarComponent implements OnInit {
+  navbarText = [
+    {
+      content: 'About Me'
+    },
+    {
+      content: 'Games Played'
+    },
+    {
+      content: 'Socials'
+    }
+  ]
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
